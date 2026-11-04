@@ -1,0 +1,16 @@
+This packaging mirror is based on LingBot-Map revision
+b9dd1b1de535e6d36e777fb42b8433c781bfd783. It changes the OpenCV dependency
+to opencv-python-headless and includes the license files in the wheel.
+The upstream implementation and copyright notices remain unchanged.
+
+The upstream maintainer confirmed that lingbot_map/heads/dpt_head.py and
+lingbot_map/heads/camera_head.py are adapted from VGGT and remain under the
+VGGT License, despite the Apache-2.0 license at the repository root:
+https://github.com/Robbyant/lingbot-map/issues/118
+The VGGT License, including its Acceptable Use Policy, is reproduced in
+VGGT-LICENSE.txt from https://github.com/facebookresearch/vggt/blob/a288dd0f14786c93483e45524328726ab7b1b4ce/LICENSE.txt.
+
+The upstream maintainer states that LingBot-Map's released weights are
+Apache-2.0 and were not initialized from VGGT weights:
+https://github.com/Robbyant/lingbot-map/issues/107
+Other components retain their original notices and applicable terms.
